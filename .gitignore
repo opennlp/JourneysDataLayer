@@ -102,3 +102,12 @@ venv.bak/
 
 # mypy
 .mypy_cache/
+
+#Pycharm settings
+
+.idea/
+
+#Project specific settings
+
+playground/
+logs/
