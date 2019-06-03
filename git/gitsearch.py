@@ -4,7 +4,7 @@ from git import gitsearchutils
 from interface.interfacefactory import DataIngestionInterface
 import requests
 
-BASE_URL = 'https://git.corp.adobe.com/api/v3/search/issues'
+BASE_URL = '<ORG_URL>/api/v3/search/issues' # Replace <ORG_URL> with your org url
 
 
 class GitDataIngestion(DataIngestionInterface):
